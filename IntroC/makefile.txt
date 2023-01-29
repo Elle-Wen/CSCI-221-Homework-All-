@@ -1,0 +1,7 @@
+FLAG = -Wall -Werror -Wextra -pedantic 
+
+Moving: Moving.o
+	gcc -o Moving Moving.o $(FLAG)
+Moving.o: Moving.c Moving.h
+	gcc -c Moving.c $(FLAG)
+	
