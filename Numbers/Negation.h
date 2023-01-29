@@ -1,0 +1,1 @@
+int Negation(int x);
